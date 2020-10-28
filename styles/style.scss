@@ -1,8 +1,5 @@
-$blue: #01bddd;
-$white: #ffffff;
-$primaryText: 72px;
-$secondaryText: 32px;
-$paraText: 16px;
+@import "./variables";
+@import "./nav";
 
 html {
   box-sizing: border-box;
@@ -22,58 +19,4 @@ body {
 
 button {
   font-family: "Raleway", "Arial", sans-serif;
-}
-
-/* nav */
-
-.nav-header {
-  background-color: $blue;
-  display: flex;
-  flex-direction: column;
-  padding: 20px 0;
-}
-
-.nav-logo {
-  width: 200px;
-  height: auto;
-  margin: 0 auto;
-}
-
-.nav {
-  font-size: $paraText;
-  background-color: $blue;
-  display: flex;
-  justify-content: space-evenly;
-  padding: 10px 0;
-}
-
-.nav a {
-  color: $white;
-  text-decoration: none;
-}
-
-.subnav a {
-  color: $white;
-  text-decoration: none;
-  padding: 0 10px;
-  cursor: pointer;
-}
-
-.subnavbtn {
-  font-size: $paraText;
-  color: $white;
-  background-color: inherit;
-  border: none;
-  outline: none;
-  padding: 0 10px;
-  cursor: pointer;
-}
-
-.subnav-content {
-  display: none;
-  padding: 10px 0;
-}
-
-.subnav:hover .subnav-content {
-  display: block;
 }
