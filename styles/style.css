@@ -126,6 +126,31 @@
   font-size: 32px;
 }
 
+.story {
+  padding: 2% 12%;
+}
+
+.story h1 {
+  font-size: 32px;
+  text-align: center;
+  color: #383838;
+  margin-bottom: 50px;
+}
+
+.story .story-container {
+  -webkit-column-count: 2;
+          column-count: 2;
+}
+
+.story p {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+  color: #090909;
+}
+
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
