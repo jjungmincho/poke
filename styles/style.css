@@ -1,5 +1,6 @@
 .nav-header {
   background-color: #01bddd;
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -7,25 +8,30 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 20px 0;
+  z-index: 10;
 }
 
 .nav-logo {
   width: 200px;
   height: auto;
-  margin: 0 auto;
 }
 
 .nav {
   font-size: 16px;
-  background-color: #01bddd;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  padding: 10px 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px 0px;
 }
 
 .nav a {
@@ -36,27 +42,88 @@
 .subnav a {
   color: #ffffff;
   text-decoration: none;
-  padding: 0 10px;
+  padding: 10px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   cursor: pointer;
 }
 
 .subnavbtn {
-  font-size: 16px;
   color: #ffffff;
+  font-size: 16px;
   background-color: inherit;
   border: none;
   outline: none;
-  padding: 0 10px;
+  padding: 0 40px;
   cursor: pointer;
+}
+
+.menu {
+  padding-right: 0;
 }
 
 .subnav-content {
   display: none;
-  padding: 10px 0;
+  padding: 10px 20px;
 }
 
 .subnav:hover .subnav-content {
   display: block;
+}
+
+.hero-img {
+  width: 100vw;
+  height: auto;
+  position: relative;
+  -webkit-filter: blur(0.85px) brightness(0.7);
+          filter: blur(0.85px) brightness(0.7);
+}
+
+.hero-content {
+  background-color: transparent;
+}
+
+.hero-content button {
+  position: absolute;
+  right: 38%;
+  bottom: 3%;
+  margin: 10px;
+  border-radius: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.primaryBtn {
+  padding: 30px;
+  border: none;
+  background-color: #01bddd;
+  color: #ffffff;
+}
+
+.hero-inner-content {
+  padding-bottom: 70px;
+  position: absolute;
+  right: 18%;
+  bottom: 15%;
+  text-align: center;
+}
+
+.hero-inner-content a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.hero-inner-content h1 {
+  font-size: 72px;
+}
+
+.hero-inner-content h3 {
+  font-size: 32px;
 }
 
 html {

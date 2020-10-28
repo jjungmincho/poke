@@ -1,0 +1,44 @@
+.hero-img {
+  width: 100vw;
+  height: auto;
+  position: relative;
+  filter: blur(0.85px) brightness(0.7);
+}
+
+.hero-content {
+  background-color: transparent;
+  button {
+    position: absolute;
+    right: 38%;
+    bottom: 3%;
+    margin: 10px;
+    border-radius: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+}
+
+.primaryBtn {
+  padding: 30px;
+  border: none;
+  background-color: $blue;
+  color: $white;
+}
+
+.hero-inner-content {
+  padding-bottom: 70px;
+  position: absolute;
+  right: 18%;
+  bottom: 15%;
+  text-align: center;
+  a {
+    text-decoration: none;
+    color: $white;
+  }
+  h1 {
+    font-size: $primaryText;
+  }
+  h3 {
+    font-size: $secondaryText;
+  }
+}

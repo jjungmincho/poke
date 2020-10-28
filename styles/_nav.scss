@@ -1,49 +1,56 @@
 .nav-header {
   background-color: $blue;
+  position: relative;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 20px 0;
+  z-index: 10;
 }
 
 .nav-logo {
   width: 200px;
   height: auto;
-  margin: 0 auto;
 }
 
 .nav {
   font-size: $paraText;
-  background-color: $blue;
   display: flex;
-  justify-content: space-evenly;
-  padding: 10px 0;
-}
-
-.nav a {
-  color: $white;
-  text-decoration: none;
+  justify-content: space-between;
+  padding: 10px 0px;
+  a {
+    color: $white;
+    text-decoration: none;
+  }
 }
 
 .subnav a {
   color: $white;
   text-decoration: none;
-  padding: 0 10px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
   cursor: pointer;
 }
 
 .subnavbtn {
-  font-size: $paraText;
   color: $white;
+  font-size: $paraText;
   background-color: inherit;
   border: none;
   outline: none;
-  padding: 0 10px;
+  padding: 0 40px;
   cursor: pointer;
+}
+
+.menu {
+  padding-right: 0;
 }
 
 .subnav-content {
   display: none;
-  padding: 10px 0;
+  padding: 10px 20px;
 }
 
 .subnav:hover .subnav-content {
