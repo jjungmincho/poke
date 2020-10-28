@@ -6,9 +6,6 @@
     color: $gray;
     margin-bottom: 50px;
   }
-  .story-container {
-    column-count: 2;
-  }
   p {
     margin-top: 0;
     margin-bottom: 20px;
@@ -17,4 +14,8 @@
     line-height: 1.5em;
     color: $black;
   }
+}
+
+.story-container {
+  column-count: 2;
 }

@@ -137,11 +137,6 @@
   margin-bottom: 50px;
 }
 
-.story .story-container {
-  -webkit-column-count: 2;
-          column-count: 2;
-}
-
 .story p {
   margin-top: 0;
   margin-bottom: 20px;
@@ -149,6 +144,11 @@
   letter-spacing: 1px;
   line-height: 1.5em;
   color: #090909;
+}
+
+.story-container {
+  -webkit-column-count: 2;
+          column-count: 2;
 }
 
 html {
