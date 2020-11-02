@@ -1,0 +1,20 @@
+.signature-menu {
+  padding: 10%;
+}
+
+.menu-title-container {
+  text-align: center;
+  color: $gray;
+  margin-bottom: 50px;
+  .menu-title {
+    font-size: $secondaryText;
+  }
+  .menu-subtitle {
+    font-size: $thirdText;
+  }
+  span {
+    font-size: $thirdText;
+    text-align: center;
+    color: $gray;
+  }
+}
