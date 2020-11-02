@@ -130,12 +130,13 @@
   border: none;
   position: absolute;
   left: 50%;
-  bottom: 15%;
+  bottom: 10%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
 
 .story {
+  width: 100%;
   padding: 10%;
   background-color: #f5f5f5;
 }
@@ -150,6 +151,7 @@
 .story-container {
   -webkit-column-count: 2;
           column-count: 2;
+  padding: 0 5%;
 }
 
 .story-para {
@@ -162,6 +164,7 @@
 }
 
 .signature-menu {
+  width: 100%;
   padding: 10%;
 }
 
@@ -254,6 +257,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Raleway", "Arial", sans-serif;
+  overflow-x: hidden;
 }
 
 button {
