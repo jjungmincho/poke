@@ -130,7 +130,8 @@
 }
 
 .story {
-  padding: 2% 12%;
+  padding: 10%;
+  background-color: #f5f5f5;
 }
 
 .story-title {
@@ -152,6 +153,30 @@
   letter-spacing: 2px;
   line-height: 1.8em;
   color: #090909;
+}
+
+.signature-menu {
+  padding: 10%;
+}
+
+.menu-title-container {
+  text-align: center;
+  color: #383838;
+  margin-bottom: 50px;
+}
+
+.menu-title-container .menu-title {
+  font-size: 32px;
+}
+
+.menu-title-container .menu-subtitle {
+  font-size: 20px;
+}
+
+.menu-title-container span {
+  font-size: 20px;
+  text-align: center;
+  color: #383838;
 }
 
 html {
