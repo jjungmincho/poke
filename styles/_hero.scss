@@ -12,20 +12,15 @@
     border-radius: 40px;
     font-weight: 600;
     text-transform: uppercase;
-    z-index: 1;
   }
-}
-
-.primaryBtn {
-  padding: 30px;
-  border: none;
-  background-color: $blue;
-  color: $white;
 }
 
 .hero-inner-content {
   text-align: center;
-  z-index: 1;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   a {
     text-decoration: none;
     color: $white;
@@ -36,4 +31,15 @@
   h3 {
     font-size: $secondaryText;
   }
+}
+
+.primaryBtn {
+  color: $white;
+  background-color: $blue;
+  padding: 30px;
+  border: none;
+  position: absolute;
+  left: 50%;
+  bottom: 15%;
+  transform: translate(-50%, -50%);
 }
