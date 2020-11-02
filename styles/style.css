@@ -1,6 +1,7 @@
 .nav-header {
+  position: fixed;
+  width: 100%;
   background-color: #01bddd;
-  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -16,6 +17,8 @@
           align-items: center;
   padding: 20px 0;
   z-index: 10;
+  -webkit-box-shadow: 0px 8px 7px rgba(77, 77, 77, 0.1);
+          box-shadow: 0px 8px 7px rgba(77, 77, 77, 0.1);
 }
 
 .nav-logo {
@@ -93,6 +96,9 @@
   border-radius: 40px;
   font-weight: 600;
   text-transform: uppercase;
+  -webkit-box-shadow: 0px 8px 7px rgba(59, 59, 59, 0.4);
+          box-shadow: 0px 8px 7px rgba(59, 59, 59, 0.4);
+  cursor: pointer;
 }
 
 .hero-inner-content {
@@ -175,6 +181,10 @@
   color: #090909;
 }
 
+.menu-title-container .menu-subtitle span {
+  color: #01bddd;
+}
+
 .menu-title-container span {
   font-size: 20px;
   text-align: center;
@@ -191,6 +201,7 @@
 }
 
 .menu-list li {
+  font-size: 16px;
   list-style: none;
   font-weight: 600;
   padding: 10px 0;
@@ -223,8 +234,8 @@
   color: #7e7e7e;
 }
 
-.vegi i {
-  color: green;
+.menu-text-container span {
+  color: #01bddd;
 }
 
 html {

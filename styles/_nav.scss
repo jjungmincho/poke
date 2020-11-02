@@ -1,12 +1,14 @@
 .nav-header {
+  position: fixed;
+  width: 100%;
   background-color: $blue;
-  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 20px 0;
   z-index: 10;
+  box-shadow: 0px 8px 7px rgba(77, 77, 77, 0.1);
 }
 
 .nav-logo {
