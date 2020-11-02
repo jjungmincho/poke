@@ -22,12 +22,18 @@ body {
 
 h1,
 h3,
-a {
-  font-family: "Raleway", "Times", sans-serif;
+a,
+li,
+span {
+  font-family: "Raleway", "Arial", sans-serif;
 }
 
 p {
   font-family: "Roboto", "Helvetica", sans-serif;
+}
+
+li {
+  list-style: none;
 }
 
 button {

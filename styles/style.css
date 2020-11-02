@@ -138,7 +138,7 @@
 .story {
   width: 100%;
   padding: 10%;
-  background-color: #f5f5f5;
+  background-color: #f8f8f8;
 }
 
 .story-title {
@@ -162,11 +162,6 @@
   letter-spacing: 2px;
   line-height: 1.8em;
   color: #090909;
-}
-
-.signature-menu {
-  width: 100%;
-  padding: 10%;
 }
 
 .menu-title-container {
@@ -196,7 +191,13 @@
   color: #090909;
 }
 
-.menu-list {
+/* signature menu */
+.signature-menu {
+  width: 100%;
+  padding: 10% 10% 5% 10%;
+}
+
+.signature-menu-container {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
@@ -205,7 +206,7 @@
   grid-gap: 30px;
 }
 
-.menu-subcontainer {
+.signature-menu-subcontainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -215,34 +216,79 @@
           flex-direction: row;
 }
 
-.menu-subcontainer img {
+.signature-menu-subcontainer img {
   width: 100px;
   height: 100px;
 }
 
-.menu-text-container {
+.signature-menu-text-container {
   padding-left: 20px;
 }
 
-.menu-text-container li {
+.signature-menu-text-container li {
   color: #090909;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
   font-size: 16px;
-  list-style: none;
-  font-weight: 600;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 0.5px;
   padding: 6px 0 10px 0;
 }
 
-.menu-text-container p {
+.signature-menu-text-container p {
   color: #636363;
   margin-top: 5px;
   letter-spacing: 0.5px;
   line-height: 1.6em;
 }
 
-.menu-text-container span {
+.signature-menu-text-container span {
   color: #01bddd;
+}
+
+/* custom menu */
+.custom-menu {
+  width: 100%;
+  padding: 0 10% 10% 10%;
+}
+
+.custom-menu-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[6];
+      grid-template-columns: repeat(6, 1fr);
+  grid-gap: 2em;
+}
+
+.custom-menu-container .custom-menu-subtitle {
+  color: #ffffff;
+  background-color: #01bddd;
+  padding: 15px 12px;
+  margin-bottom: 0;
+}
+
+.custom-menu-container .custom-menu-list-container {
+  padding: 5px 10px 15px 10px;
+  background-color: #f8f8f8;
+}
+
+.custom-menu-container .custom-menu-list {
+  color: #636363;
+}
+
+.custom-menu-container span {
+  font-size: 14px;
+  color: #a5a5a5;
+}
+
+#custom-menu-request {
+  color: #a5a5a5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 3%;
 }
 
 html {
@@ -265,12 +311,18 @@ body {
 
 h1,
 h3,
-a {
-  font-family: "Raleway", "Times", sans-serif;
+a,
+li,
+span {
+  font-family: "Raleway", "Arial", sans-serif;
 }
 
 p {
   font-family: "Roboto", "Helvetica", sans-serif;
+}
+
+li {
+  list-style: none;
 }
 
 button {
