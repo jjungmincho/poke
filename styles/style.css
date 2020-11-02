@@ -223,6 +223,10 @@
   color: #7e7e7e;
 }
 
+.vegi i {
+  color: green;
+}
+
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
