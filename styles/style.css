@@ -80,8 +80,8 @@
   width: 100vw;
   height: auto;
   position: relative;
-  -webkit-filter: blur(0.85px) brightness(0.7);
-          filter: blur(0.85px) brightness(0.7);
+  -webkit-filter: blur(1.8px) brightness(0.7);
+          filter: blur(1.8px) brightness(0.7);
 }
 
 .hero-content {
@@ -149,7 +149,7 @@
   margin-top: 0;
   margin-bottom: 20px;
   font-size: 16px;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   line-height: 1.8em;
   color: #090909;
 }
