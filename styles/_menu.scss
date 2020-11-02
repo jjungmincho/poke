@@ -13,6 +13,9 @@
   .menu-subtitle {
     font-size: $thirdText;
     color: $black;
+    span {
+      color: $blue;
+    }
   }
   span {
     font-size: $thirdText;
@@ -30,6 +33,7 @@
 
 .menu-list {
   li {
+    font-size: $paraText;
     list-style: none;
     font-weight: 600;
     padding: 10px 0;
@@ -53,8 +57,7 @@
   p {
     color: $gray;
   }
-}
-
-.vegi i {
-  color: green;
+  span {
+    color: $blue;
+  }
 }
