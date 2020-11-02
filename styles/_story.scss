@@ -1,21 +1,23 @@
 .story {
   padding: 2% 12%;
-  h1 {
-    font-size: $secondaryText;
-    text-align: center;
-    color: $gray;
-    margin-bottom: 50px;
-  }
-  p {
-    margin-top: 0;
-    margin-bottom: 20px;
-    font-size: $paraText;
-    letter-spacing: 1px;
-    line-height: 1.5em;
-    color: $black;
-  }
+}
+
+.story-title {
+  font-size: $secondaryText;
+  text-align: center;
+  color: $gray;
+  margin-bottom: 50px;
 }
 
 .story-container {
   column-count: 2;
+}
+
+.story-para {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: $paraText;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+  color: $black;
 }
