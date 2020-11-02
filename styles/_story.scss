@@ -14,14 +14,14 @@
 
 .story-container {
   column-count: 2;
-  padding: 0 5%;
+  padding: 0 7%;
 }
 
 .story-para {
   margin-top: 0;
   margin-bottom: 20px;
   font-size: $paraText;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   line-height: 1.8em;
-  color: $black;
+  color: $gray;
 }

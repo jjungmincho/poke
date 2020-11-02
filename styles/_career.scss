@@ -1,0 +1,74 @@
+.career {
+  position: relative;
+  width: 100%;
+  padding: 10%;
+  background-color: $superLightGray;
+}
+
+.career-title-container {
+  text-align: center;
+  color: $black;
+  font-size: $thirdText;
+  text-transform: uppercase;
+}
+
+.career-title {
+  padding-bottom: 25px;
+}
+
+.career-subtitle-container {
+  display: flex;
+  flex-direction: row;
+}
+.career-icon {
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.career-image-container,
+.career-text-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding-bottom: 20px;
+}
+
+.career-text-container {
+  padding: 5% 0;
+}
+
+.career-image {
+  object-fit: cover;
+  width: 500px;
+  height: 350px;
+}
+
+.career-subtitle {
+  color: $black;
+  font-size: $paraText;
+  font-weight: 600;
+}
+
+.career-para {
+  color: $gray;
+  font-size: $paraText;
+  font-weight: 300;
+  line-height: 1.5em;
+}
+
+.secondaryBtn {
+  color: $white;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: $blue;
+  padding: 30px;
+  margin: 10px;
+  position: absolute;
+  left: 50%;
+  bottom: 2%;
+  transform: translate(-50%, -50%);
+  border-radius: 40px;
+  box-shadow: 0px 8px 7px rgba(59, 59, 59, 0.2);
+}

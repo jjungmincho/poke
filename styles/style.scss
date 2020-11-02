@@ -3,6 +3,7 @@
 @import "./hero";
 @import "./story";
 @import "./menu";
+@import "./career";
 
 html {
   box-sizing: border-box;
@@ -38,4 +39,6 @@ li {
 
 button {
   font-family: "Raleway", "Arial", sans-serif;
+  border: none;
+  cursor: pointer;
 }
