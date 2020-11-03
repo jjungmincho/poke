@@ -58,3 +58,17 @@ input[type="text"]:focus {
 input#message {
   height: 200px;
 }
+
+@media only screen and (min-width: 1200px) {
+  .contact__map-img {
+    width: 800px;
+    height: 800px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .contact__map-img {
+    width: 600px;
+    height: 800px;
+  }
+}

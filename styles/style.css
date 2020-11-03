@@ -323,8 +323,7 @@
   display: grid;
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 0.4em;
 }
 
 .career__text-container {
@@ -334,8 +333,28 @@
 .career__image {
   -o-object-fit: cover;
      object-fit: cover;
-  width: 500px;
-  height: 350px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .career__image {
+    width: 500px;
+    height: 350px;
+  }
+  .career__image-container,
+  .career__text-container {
+    grid-gap: 0.4em;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .career__image {
+    width: 350px;
+    height: 250px;
+  }
+  .career__image-container,
+  .career__text-container {
+    grid-gap: 1em;
+  }
 }
 
 .career__title {
@@ -364,7 +383,7 @@
   margin: 10px;
   position: absolute;
   left: 50%;
-  bottom: 5%;
+  bottom: 2%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   border-radius: 40px;
@@ -464,6 +483,20 @@ input[type="text"]:focus {
 
 input#message {
   height: 200px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .contact__map-img {
+    width: 800px;
+    height: 800px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .contact__map-img {
+    width: 600px;
+    height: 800px;
+  }
 }
 
 .footer {
