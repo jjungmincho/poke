@@ -1,0 +1,60 @@
+.contact {
+  padding: 10%;
+  background-color: $superLightGray;
+  display: flex;
+  flex-direction: row;
+}
+
+.contact__title {
+  color: $black;
+  font-size: $secondaryText;
+  text-transform: uppercase;
+}
+
+.contact__subtitle {
+  color: $gray;
+  font-size: $paraText;
+  font-weight: 600;
+}
+
+/* form */
+.contact-form__container {
+  padding-left: 30px;
+}
+
+.contact-form {
+  display: table;
+  margin-top: 30px;
+}
+
+label,
+input {
+  display: table-cell;
+}
+
+label {
+  color: $gray;
+  padding-bottom: 5px;
+}
+
+input {
+  width: 500px;
+  padding: 8px 20px;
+  border: none;
+  margin: 8px 0;
+  outline: none;
+  cursor: pointer;
+}
+
+input[type="text"]:focus {
+  border: 0.5px solid $lightGray;
+  color: $black;
+}
+
+.input__container {
+  margin-bottom: 30px;
+}
+
+input#message {
+  height: 200px;
+}
