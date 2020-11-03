@@ -1,0 +1,24 @@
+.carousel {
+  padding: 10%;
+}
+
+.carousel__title-container {
+  text-align: center;
+}
+
+.carousel__title {
+  color: $black;
+  font-size: $secondaryText;
+  text-transform: uppercase;
+}
+
+.carousel__img-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.carousel__img {
+  margin-right: 10px;
+  pointer-events: none;
+}
