@@ -4,7 +4,7 @@
   background-color: $superLightGray;
 }
 
-.story-title {
+.story__title {
   font-size: $secondaryText;
   text-align: center;
   color: $black;
@@ -12,12 +12,12 @@
   text-transform: uppercase;
 }
 
-.story-container {
+.story__container {
   column-count: 2;
   padding: 0 7%;
 }
 
-.story-para {
+.story__para {
   margin-top: 0;
   margin-bottom: 20px;
   font-size: $paraText;

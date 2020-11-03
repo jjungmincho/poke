@@ -5,53 +5,53 @@
   background-color: $superLightGray;
 }
 
-.career-title-container {
+.career__title-container {
   text-align: center;
   color: $black;
   font-size: $thirdText;
   text-transform: uppercase;
 }
 
-.career-title {
+.career__title {
   padding-bottom: 25px;
 }
 
-.career-subtitle-container {
+.career__subtitle-container {
   display: flex;
   flex-direction: row;
 }
-.career-icon {
+.career__icon {
   width: 50px;
   height: 50px;
   padding: 5px;
   margin-right: 10px;
 }
 
-.career-image-container,
-.career-text-container {
+.career__image-container,
+.career__text-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
   padding-bottom: 20px;
 }
 
-.career-text-container {
+.career__text-container {
   padding: 5% 0;
 }
 
-.career-image {
+.career__image {
   object-fit: cover;
   width: 500px;
   height: 350px;
 }
 
-.career-subtitle {
+.career__subtitle {
   color: $black;
   font-size: $paraText;
   font-weight: 600;
 }
 
-.career-para {
+.career__para {
   color: $gray;
   font-size: $paraText;
   font-weight: 300;

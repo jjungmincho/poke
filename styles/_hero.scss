@@ -1,15 +1,15 @@
-.hero-img {
+.hero__img {
   width: 100vw;
   height: auto;
   position: relative;
   filter: blur(1.8px) brightness(0.7);
 }
 
-.hero-content {
+.hero__content {
   background-color: transparent;
 }
 
-.hero-inner-content {
+.hero__inner-content {
   text-align: center;
   position: absolute;
   left: 50%;
@@ -20,9 +20,11 @@
     text-decoration: none;
     color: $white;
   }
+
   h1 {
     font-size: $primaryText;
   }
+
   h3 {
     font-size: $secondaryText;
   }
