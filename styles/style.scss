@@ -4,6 +4,7 @@
 @import "./story";
 @import "./menu";
 @import "./career";
+@import "./footer";
 
 html {
   box-sizing: border-box;
@@ -40,5 +41,6 @@ li {
 button {
   font-family: "Raleway", "Arial", sans-serif;
   border: none;
+  outline: none;
   cursor: pointer;
 }

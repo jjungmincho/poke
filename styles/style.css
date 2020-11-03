@@ -372,6 +372,32 @@
           box-shadow: 0px 8px 7px rgba(59, 59, 59, 0.2);
 }
 
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 2% 40px 2%;
+  background-color: #090909;
+}
+
+.footer-text-container {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.footer-img-container img {
+  fill: white;
+  width: 30px;
+  height: 30px;
+  padding-right: 5px;
+}
+
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -409,6 +435,7 @@ li {
 button {
   font-family: "Raleway", "Arial", sans-serif;
   border: none;
+  outline: none;
   cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */

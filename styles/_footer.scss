@@ -1,0 +1,21 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 2% 40px 2%;
+  background-color: $black;
+}
+
+.footer-text-container {
+  color: $white;
+  font-size: $extraSmallText;
+}
+
+.footer-img-container {
+  img {
+    fill: white;
+    width: 30px;
+    height: 30px;
+    padding-right: 5px;
+  }
+}
