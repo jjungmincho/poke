@@ -43,6 +43,8 @@ input {
   border: none;
   margin: 8px 0;
   outline: none;
+  font-size: $paraText;
+  font-weight: 400;
   cursor: pointer;
 }
 
@@ -53,10 +55,16 @@ input[type="text"]:focus {
 
 .input__container {
   margin-bottom: 30px;
-}
-
-input#message {
-  height: 200px;
+  textarea {
+    width: 500px;
+    height: 250px;
+    border: none;
+    outline: none;
+    padding: 15px 20px;
+    color: $black;
+    font-size: $paraText;
+    font-weight: 400;
+  }
 }
 
 @media only screen and (min-width: 1200px) {

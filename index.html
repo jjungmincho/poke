@@ -281,19 +281,19 @@
             <form action="" method="get" class="contact-form">
                 <div class="input__container">
                     <label for="name">Full Name: </label>
-                    <input type="text" name="name" id="name" required>
+                    <input type="text" name="name" id="name" required minlength="10" maxlength="20">
                 </div>
                 <div class="input__container">
                     <label for="email">Email Address: </label>
-                    <input type="text" name="email" id="email" required>
+                    <input type="text" name="email" id="email" required minlength="20" maxlength="30">
                 </div>
                 <div class="input__container">
                     <label for="subject">Subject: </label>
-                    <input type="text" name="subject" id="subject" required>
+                    <input type="text" name="subject" id="subject" required minlength="5" maxlength="50">
                 </div>
                 <div class="input__container">
-                    <label for="message">Email Address: </label>
-                    <input type="text" name="message" id="message" required>
+                    <label for="subject">Message: </label>
+                    <textarea name="message" id="message" required minlength="30" maxlength="1000"></textarea>
                 </div>
             </form>
             <button class="thirdBtn">Submit</button>
