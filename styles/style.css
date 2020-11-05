@@ -15,7 +15,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 20px 0;
+  padding: 20px 0 10px 0;
   z-index: 10;
   -webkit-box-shadow: 0px 8px 7px rgba(77, 77, 77, 0.1);
           box-shadow: 0px 8px 7px rgba(77, 77, 77, 0.1);
@@ -27,7 +27,7 @@
 }
 
 .nav {
-  font-size: 16px;
+  font-size: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -45,7 +45,6 @@
 .subnav a {
   color: #ffffff;
   text-decoration: none;
-  padding: 10px 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -58,7 +57,7 @@
 
 .subnav__btn {
   color: #ffffff;
-  font-size: 16px;
+  font-size: 1rem;
   background-color: inherit;
   border: none;
   outline: none;
@@ -72,7 +71,11 @@
 
 .subnav__content {
   display: none;
-  padding: 10px 20px;
+  padding: 20px 10px 10px 10px;
+}
+
+.subnav__content a {
+  padding: 10px 30px 0 30px;
 }
 
 .subnav:hover .subnav__content {
@@ -106,11 +109,11 @@
 }
 
 .hero__inner-content h1 {
-  font-size: 72px;
+  font-size: 4.5rem;
 }
 
 .hero__inner-content h3 {
-  font-size: 32px;
+  font-size: 2rem;
 }
 
 .primaryBtn {
@@ -137,7 +140,7 @@
 }
 
 .story__title {
-  font-size: 32px;
+  font-size: 2rem;
   text-align: center;
   color: #090909;
   margin-bottom: 50px;
@@ -153,7 +156,7 @@
 .story__para {
   margin-top: 0;
   margin-bottom: 20px;
-  font-size: 16px;
+  font-size: 1rem;
   letter-spacing: 1px;
   line-height: 1.8em;
   color: #636363;
@@ -166,13 +169,13 @@
 }
 
 .menu__title-container .menu__title {
-  font-size: 32px;
+  font-size: 2rem;
   color: #090909;
   text-transform: uppercase;
 }
 
 .menu__title-container .menu__subtitle {
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #090909;
 }
 
@@ -181,7 +184,7 @@
 }
 
 .menu__title-container span {
-  font-size: 20px;
+  font-size: 1.25rem;
   text-align: center;
   color: #090909;
 }
@@ -222,7 +225,7 @@
 
 .signature-menu__text-container li {
   color: #090909;
-  font-size: 16px;
+  font-size: 1rem;
   text-transform: uppercase;
   font-weight: 800;
   letter-spacing: 0.5px;
@@ -271,7 +274,7 @@
 }
 
 .custom-menu__container span {
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #a5a5a5;
 }
 
@@ -296,7 +299,7 @@
 .career__title-container {
   text-align: center;
   color: #090909;
-  font-size: 20px;
+  font-size: 1.25rem;
   text-transform: uppercase;
 }
 
@@ -363,13 +366,13 @@
 
 .career__subtitle {
   color: #090909;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
 }
 
 .career__para {
   color: #636363;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 300;
   line-height: 1.5em;
 }
@@ -401,7 +404,7 @@
 
 .carousel__title {
   color: #090909;
-  font-size: 32px;
+  font-size: 2rem;
   text-transform: uppercase;
 }
 
@@ -433,13 +436,13 @@
 
 .contact__title {
   color: #090909;
-  font-size: 32px;
+  font-size: 2rem;
   text-transform: uppercase;
 }
 
 .contact__subtitle {
   color: #636363;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
 }
 
@@ -515,7 +518,7 @@ input#message {
 
 .footer__text-container {
   color: #ffffff;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .footer__img-container img {
@@ -525,9 +528,11 @@ input#message {
   padding-right: 5px;
 }
 
+/* Universal Styles */
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-size: 16px;
 }
 
 *,
