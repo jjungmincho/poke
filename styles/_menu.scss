@@ -2,6 +2,7 @@
   text-align: center;
   color: $gray;
   margin-bottom: 50px;
+
   .menu__title {
     font-size: $secondaryText;
     color: $black;
@@ -29,8 +30,7 @@
 
 .signature-menu__container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-auto-rows: 150px;
+  grid-template: 150px / repeat(2, 1fr);
   grid-gap: 30px;
   padding-left: 0;
 }
@@ -39,6 +39,7 @@
   display: flex;
   flex-direction: row;
   padding-left: 5px;
+
   img {
     width: 100px;
     height: 100px;
@@ -47,6 +48,7 @@
 
 .signature-menu__text-container {
   padding-left: 20px;
+
   li {
     color: $black;
     font-size: $paraText;
@@ -55,12 +57,14 @@
     letter-spacing: 0.5px;
     padding: 6px 0 10px 0;
   }
+
   p {
     color: $gray;
     margin-top: 5px;
     letter-spacing: 0.5px;
     line-height: 1.6em;
   }
+
   span {
     color: $blue;
   }

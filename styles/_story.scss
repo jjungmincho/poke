@@ -5,9 +5,9 @@
 }
 
 .story__title {
+  color: $black;
   font-size: $secondaryText;
   text-align: center;
-  color: $black;
   margin-bottom: 50px;
   text-transform: uppercase;
 }
@@ -18,10 +18,10 @@
 }
 
 .story__para {
+  color: $gray;
   margin-top: 0;
   margin-bottom: 20px;
   font-size: $paraText;
   letter-spacing: 1px;
   line-height: 1.8em;
-  color: $gray;
 }

@@ -27,12 +27,14 @@
   }
 }
 
-.subnav a {
-  color: $white;
-  text-decoration: none;
-  display: flex;
-  flex-direction: column;
-  cursor: pointer;
+.subnav {
+  a {
+    color: $white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+  }
 }
 
 .subnav__btn {
