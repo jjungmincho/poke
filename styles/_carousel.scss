@@ -21,3 +21,10 @@
 .carousel__img {
   margin-right: 10px;
 }
+
+/* phone screen */
+@media only screen and (max-width: 600px) {
+  .carousel__img {
+    width: 120vw;
+  }
+}

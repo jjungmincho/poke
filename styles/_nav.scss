@@ -62,3 +62,16 @@
 .subnav:hover .subnav__content {
   display: block;
 }
+
+/* phone screen */
+@media only screen and (max-width: 600px) {
+  .nav {
+    padding: 10px 0 10px 10px;
+  }
+
+  .subnav__content {
+    a {
+      font-size: $extraSmallText;
+    }
+  }
+}

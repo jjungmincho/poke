@@ -78,3 +78,25 @@
     padding: 30px 40px;
   }
 }
+
+/* phone screen */
+@media only screen and (max-width: 600px) {
+  .career__image-container,
+  .career__text-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .career__subtitle-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .career__para {
+    text-align: center;
+  }
+
+  .secondaryBtn {
+    width: 80%;
+    bottom: -2%;
+  }
+}

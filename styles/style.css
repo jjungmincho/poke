@@ -82,6 +82,16 @@
   display: block;
 }
 
+/* phone screen */
+@media only screen and (max-width: 600px) {
+  .nav {
+    padding: 10px 0 10px 10px;
+  }
+  .subnav__content a {
+    font-size: 0.875rem;
+  }
+}
+
 .hero__img {
   width: 100vw;
   height: auto;
@@ -141,6 +151,22 @@
   padding: 30px 40px;
 }
 
+/* phone screen */
+@media only screen and (max-width: 600px) {
+  .hero__img {
+    width: 988px;
+    height: 100vh;
+  }
+  .hero__inner-content h1 {
+    margin-top: 120px;
+    margin-bottom: 0px;
+  }
+  .primaryBtn {
+    width: 80%;
+    bottom: -10%;
+  }
+}
+
 .story {
   width: 100%;
   padding: 10%;
@@ -168,6 +194,15 @@
   font-size: 1rem;
   letter-spacing: 1px;
   line-height: 1.8em;
+}
+
+/* phone screen */
+@media only screen and (max-width: 600px) {
+  .story__container {
+    -webkit-column-count: 1;
+            column-count: 1;
+    text-align: center;
+  }
 }
 
 .menu__title-container {
@@ -300,6 +335,21 @@
   padding-top: 3%;
 }
 
+/* phone screen */
+@media only screen and (max-width: 600px) {
+  .signature-menu__container {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
+  .custom-menu__container {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
+  #custom-menu__request {
+    text-align: center;
+  }
+}
+
 .career {
   position: relative;
   width: 100%;
@@ -393,6 +443,30 @@
   padding: 30px 40px;
 }
 
+/* phone screen */
+@media only screen and (max-width: 600px) {
+  .career__image-container,
+  .career__text-container {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
+  .career__subtitle-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .career__para {
+    text-align: center;
+  }
+  .secondaryBtn {
+    width: 80%;
+    bottom: -2%;
+  }
+}
+
 .carousel {
   padding: 10%;
 }
@@ -421,6 +495,13 @@
   margin-right: 10px;
 }
 
+/* phone screen */
+@media only screen and (max-width: 600px) {
+  .carousel__img {
+    width: 120vw;
+  }
+}
+
 .contact {
   padding: 10%;
   background-color: #f8f8f8;
@@ -434,7 +515,7 @@
 }
 
 /* form comes first. Map is used to media queries */
-.contact-form__container {
+.contact__form-container {
   padding-left: 30px;
 }
 
@@ -513,7 +594,14 @@
   padding: 20px 40px;
 }
 
-/* media queries */
+/* google map */
+@media only screen and (min-width: 1900px) {
+  .contact__map-img {
+    width: 800px;
+    height: 800px;
+  }
+}
+
 @media only screen and (min-width: 1440px) {
   .contact__map-img {
     width: 600px;
@@ -521,10 +609,31 @@
   }
 }
 
-@media only screen and (min-width: 1900px) {
+/* Phone Screen */
+@media only screen and (max-width: 600px) {
+  .contact {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
   .contact__map-img {
-    width: 800px;
-    height: 800px;
+    width: 400px;
+    height: 400px;
+  }
+  .contact__title {
+    margin-top: 20px;
+  }
+  .contact__form-container {
+    padding-left: 0;
+  }
+  .input__container input,
+  .input__container textarea {
+    width: 400px;
+  }
+  .input__container input,
+  .input__container label {
+    display: table-cell;
   }
 }
 

@@ -6,7 +6,7 @@
 }
 
 /* form comes first. Map is used to media queries */
-.contact-form__container {
+.contact__form-container {
   padding-left: 30px;
 }
 
@@ -81,7 +81,14 @@
   }
 }
 
-/* media queries */
+/* google map */
+@media only screen and (min-width: 1900px) {
+  .contact__map-img {
+    width: 800px;
+    height: 800px;
+  }
+}
+
 @media only screen and (min-width: 1440px) {
   .contact__map-img {
     width: 600px;
@@ -89,9 +96,34 @@
   }
 }
 
-@media only screen and (min-width: 1900px) {
+/* Phone Screen */
+@media only screen and (max-width: 600px) {
+  .contact {
+    flex-direction: column;
+  }
+
   .contact__map-img {
-    width: 800px;
-    height: 800px;
+    width: 400px;
+    height: 400px;
+  }
+
+  .contact__title {
+    margin-top: 20px;
+  }
+
+  .contact__form-container {
+    padding-left: 0;
+  }
+
+  .input__container {
+    input,
+    textarea {
+      width: 400px;
+    }
+
+    input,
+    label {
+      display: table-cell;
+    }
   }
 }

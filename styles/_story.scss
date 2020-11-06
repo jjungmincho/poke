@@ -25,3 +25,11 @@
   letter-spacing: 1px;
   line-height: 1.8em;
 }
+
+/* phone screen */
+@media only screen and (max-width: 600px) {
+  .story__container {
+    column-count: 1;
+    text-align: center;
+  }
+}
