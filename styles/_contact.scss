@@ -31,6 +31,11 @@
 .input__container {
   margin-bottom: 30px;
 
+  input,
+  label {
+    display: table-cell;
+  }
+
   label {
     color: $gray;
     padding-bottom: 5px;
@@ -89,7 +94,7 @@
   }
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1440px) and (max-width: 1899px) {
   .contact__map-img {
     width: 600px;
     height: 800px;
@@ -119,11 +124,6 @@
     input,
     textarea {
       width: 400px;
-    }
-
-    input,
-    label {
-      display: table-cell;
     }
   }
 }
