@@ -16,17 +16,12 @@
   display: flex;
   flex-direction: row;
 }
-.career__icon {
-  width: 50px;
-  height: 50px;
-  padding: 5px;
-  margin-right: 10px;
-}
 
 .career__image-container,
 .career__text-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 26vw);
+  grid-gap: 0.4em;
   padding-bottom: 0.4em;
 }
 
@@ -36,30 +31,9 @@
 
 .career__image {
   object-fit: cover;
-}
-
-@media only screen and (min-width: 1200px) {
-  .career__image {
-    width: 500px;
-    height: 350px;
-  }
-
-  .career__image-container,
-  .career__text-container {
-    grid-gap: 0.4em;
-  }
-}
-
-@media only screen and (min-width: 992px) {
-  .career__image {
-    width: 350px;
-    height: 250px;
-  }
-
-  .career__image-container,
-  .career__text-container {
-    grid-gap: 1em;
-  }
+  width: 100%;
+  height: 350px;
+  padding: 10px 5px;
 }
 
 .career__title {
@@ -72,11 +46,19 @@
   font-weight: 600;
 }
 
+.career__icon {
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
 .career__para {
   color: $gray;
   font-size: $paraText;
   font-weight: 300;
   line-height: 1.5em;
+  padding: 5px;
 }
 
 .secondaryBtn {
