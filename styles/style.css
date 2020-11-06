@@ -483,9 +483,18 @@ input[type="text"]:focus {
   font-weight: 400;
 }
 
-.contact__map-img {
-  width: 900px;
-  height: 800px;
+@media only screen and (min-width: 1440px) {
+  .contact__map-img {
+    width: 600px;
+    height: 800px;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .contact__map-img {
+    width: 800px;
+    height: 800px;
+  }
 }
 
 .footer {
