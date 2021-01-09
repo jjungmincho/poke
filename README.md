@@ -1,6 +1,6 @@
 # poke
 
-I redesigned the hawaiian cuisine restaurant website, Steve's Poké Bar, to practice Sass and CSS grid. ~~Note that I am still working on the project at this moment (Jan 2021) for responsive design and interactive javascript webpages.~~
+I redesigned the hawaiian cuisine restaurant website, Steve's Poké Bar, to practice Sass and CSS grid.
 
 ---
 
@@ -23,6 +23,7 @@ Languages and tools I used for this project:
 - HTML 5
 - Sass and Scss
 - CSS grid and flexbox
+- Figma
 
 ---
 
@@ -34,7 +35,6 @@ Languages and tools I used for this project:
 
 ### Screen Size Recommendation
 - PC (1440px ~)
-- ~~Currently working on laptop, iPad, and Phone screen size to make it fully responsive (Jan 2021)~~ 
 
 ---
 
