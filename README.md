@@ -5,11 +5,11 @@ I redesigned the hawaiian cuisine restaurant website, Steve's Poké Bar, to prac
 ---
 
 ## Table of Content
-- [Motivation](https://github.com/jjessicacho/poke#motivation)
-- [Technologies](https://github.com/jjessicacho/poke#technologies)
-- [Setup](https://github.com/jjessicacho/poke#setup)
-- [Highlighted Features](https://github.com/jjessicacho/poke#hilighted-features)
-- [Sources](https://github.com/jjessicacho/poke#sources)
+- [Motivation](https://github.com/jjungmincho/poke#motivation)
+- [Technologies](https://github.com/jjungmincho/poke#technologies)
+- [Setup](https://github.com/jjungmincho/poke#setup)
+- [Highlighted Features](https://github.com/jjungmincho/poke#hilighted-features)
+- [Sources](https://github.com/jjungmincho/poke#sources)
 
 ---
 
